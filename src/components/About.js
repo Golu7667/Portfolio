@@ -9,17 +9,19 @@ function About() {
 
   return (
     <>
-      <div className='mt-28  w-full h-5/6 flex justify-end border-2 border-indigo-600 '>
+      <div className='mt-28  w-full  flex justify-end border-2 border-indigo-600 '>
 
         <div className='w-1/2 h-5/6  py-8'>
-          <div className='text-5xl font-bold mt-0 text-blue-800 my-6 ' style={{ fontFamily: 'Arvo' }}>  <Typewriter
+          <div className='text-5xl font-bold mt-0 text-blue-800 my-6 ' style={{ fontFamily: 'Arvo' }}>Hi, I am Golu Choudhary  
+          <div className='text-3xl mt-6 ml-6'><Typewriter
         options={{
-          strings: ["Hi, I am Golu Choudhary" ],
+          strings: ["A Full Stack Developer", "A MERN Stack Developer" ],
           autoStart: true,
           loop: true,
           deleteSpeed: 50,
         }}
       /></div>
+          </div>
           <div className='text-lg font-bold px-6 text-black' style={{ fontFamily: 'Arvo' }} >An inquisitive and highly motivated full stack web developer with specialization in MERN stack. Have relevant hands-on experience in building multiple websites from scratch. Seeking to pursue a career in a challenging environment to hone industry skill.</div>
         </div>
         <div className=' w-1/2 h-1/6  rounded-full ' >
