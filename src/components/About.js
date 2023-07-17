@@ -1,16 +1,57 @@
-import React from 'react'
-import img from '../programming.svg'
+import React, { useState, useEffect } from 'react';
+import Lottie from 'lottie-react';
+import i from '../happy.json'
+import Typewriter from "typewriter-effect";
 
 function About() {
+ 
+
+
   return (
-   
-    <div className='w-full mx-auto mt-20  bg-cover bg-center object-cover py-9 h-screen' style={{ backgroundImage: `url(${img})` }}>
-    <div className='w-11/12 h-96 scroll flex flex-col mt-0 items-center justify-center mx-auto rounded-lg'>
-    <div className='text-4xl font-bold mb-6 text-blue-800'>Hi, I am Golu Choudhary</div>
-    <div className='text-md font-bold px-6'>An inquisitive and highly motivated full stack web developer with specialization in MERN stack. Have relevant hands-on experience in building multiple websites from scratch. Seeking to pursue a career in a challenging environment to hone industry skill.</div>
-    </div>
-  </div>
-    
+    <>
+      <div className='mt-28  w-full h-5/6 flex justify-end border-2 border-indigo-600 '>
+
+        <div className='w-1/2 h-5/6  py-8'>
+          <div className='text-5xl font-bold mt-0 text-blue-800 my-6 ' style={{ fontFamily: 'Arvo' }}>  <Typewriter
+        options={{
+          strings: ["Hi, I am Golu Choudhary" ],
+          autoStart: true,
+          loop: true,
+          deleteSpeed: 50,
+        }}
+      /></div>
+          <div className='text-lg font-bold px-6 text-black' style={{ fontFamily: 'Arvo' }} >An inquisitive and highly motivated full stack web developer with specialization in MERN stack. Have relevant hands-on experience in building multiple websites from scratch. Seeking to pursue a career in a challenging environment to hone industry skill.</div>
+        </div>
+        <div className=' w-1/2 h-1/6  rounded-full ' >
+          <Lottie animationData={i} autoplay loop />
+        </div>
+      </div>
+      <div className='w-full flex justify-center text-3xl font-bold text-black'>About</div>
+      <div className='h-96 border-2 border-indigo-600 mt-2 flex '>
+        {/* <div className='w-60 h-60 border-2 border-indigo-600 mt-8 ml-12'> */}
+        <img src="https://avatars.githubusercontent.com/u/103061012?s=400&u=8178651e4df3cf4728b69320b49df961f5226d84&v=4" className='w-60 h-60 border-2 border-indigo-600 mt-8 ml-12 rounded-2xl' />
+        {/* </div> */}
+        <div className='flex flex-col'>
+        <div className='text-xl font-bold mt-20 mx-10 text-indigo-400'>
+
+          Hi Everyone, I am Golu Choudhary from Bhagalpur, Bihar. I have completed my Higher Secondary Education at Sabour Collage Sabour,Bhagalpur.
+
+        </div>
+        <div className='mx-10 my-10 text-xl font-bold'>
+          Apart from coding, some other activities that I love to do!
+          <Typewriter
+        options={{
+          strings: ["A Full Stack Developer", "A MERN Stack Developer", "2000+ Hours Of Coding Experience","Solved aound 300+ DSA question" ],
+          autoStart: true,
+          loop: true,
+          deleteSpeed: 50,
+        }}
+      />
+        </div>
+        </div>
+      </div>
+
+    </>
   )
 }
 
