@@ -37,6 +37,7 @@ module.exports = {
       stone:colors.stone, 
       indigo:colors.indigo,
       current:colors.current,
+      sky:colors.sky,
       // custom colors
       primary: {
         blue: '#2874f0',
