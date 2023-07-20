@@ -5,8 +5,8 @@ import chat from '../chat.json'
 function Contact() {
   return (
     <>
-      <div className='text-3xl font-bold flex justify-center'>Contact</div>
-      <div className='w-full h-96 flex justify-center mb-8'>
+    
+      <div className='w-full h-96 flex justify-center mb-8 mt-8'>
       <div className=' w-8/12 h-96  mb-6  shadow-lg  shadow-black rounded-xl flex justify-center '>
         <div className='w-1/2 h-96  text bg-yellow-300 rounded-s-xl flex justify-center items-center'>
           <div className='w-72 h-72' > <Lottie animationData={chat} autoplay loop /></div>
