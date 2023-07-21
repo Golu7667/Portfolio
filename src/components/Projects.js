@@ -13,11 +13,12 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import stack from '../stack.svg';
 import { BiLogoTailwindCss } from "react-icons/bi";
 import flipkartimg from '../flipkartimg.png';
+import project from '../project.png'
 
 function Projects() {
   return (
     <>
-      <div className='text-3xl font-bold flex justify-center'>Projects</div>
+      <div className='w-full my-12  font-bold flex items-center flex-col'><div className='text-lg text-blue-600 '>Projects</div><img src={project} className='w-20 h-20  shadow-2xl shadow-green-900 rounded-3xl'/></div>
       <div className=' h-96 border rounded-xl mx-24 flex shadow-lg shadow-stone-300'>
         <div className='w-1/2 h-96 bg-white rounded-s-xl px-4'>
           <img src={flipkartimg} className=' my-2 border-2 border-gray-700 rounded-xl' />

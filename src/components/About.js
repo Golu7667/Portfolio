@@ -25,15 +25,14 @@ function About() {
         </div>
       </div>
       <div className='w-full flex justify-center text-3xl font-bold text-black'>About</div>
-      <div className='  h-96 mx-4 rounded-lg  shadow-lg shadow-black my-12 flex items-center'>
+      <div className='  h-96 mx-4 rounded-lg  shadow-xl shadow-yellow-400  flex items-center'>
         {/* <div className='w-60 h-60 border-2 border-indigo-600 mt-8 ml-12'> */}
         <img src="https://avatars.githubusercontent.com/u/103061012?s=400&u=8178651e4df3cf4728b69320b49df961f5226d84&v=4" className='w-60 h-60 border mt-8 ml-12 rounded-2xl' />
         {/* </div> */}
-        <div className='flex flex-col'>
-          <div className='text-xl font-bold mt-20 mx-10 text-indigo-400'>
-
+        <div className='mt-0 flex flex-col'>
+          <div className='text-xl font-bold  mx-10 text-indigo-400'>
             Hi Everyone, I am Golu Choudhary from Bhagalpur, Bihar. I have completed my Higher Secondary Education at Sabour Collage Sabour,Bhagalpur.
-
+           
           </div>
           <div className='mx-10 my-10 text-xl font-bold'>
             Apart from coding, some other activities that I love to do!
