@@ -38,7 +38,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className='mx-24 h-23 flex justify-between border rounded-xl mt-2 shadow-lg shadow-stone-300'>
+      <div className='hidden md:block mx-24 h-23 flex justify-between border rounded-xl mt-2 shadow-lg shadow-stone-300'>
         <div className='w-16 h-16 font-bold '><img src={stack} /></div>
         <div className=' flex gap-8'>
 
