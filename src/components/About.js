@@ -9,8 +9,8 @@ import {IoMdCall} from 'react-icons/io'
 function About() {
   return (
     <>
-      <div className='mt-28    flex  '>
-        <div className='w-1/2 h-5/6 px-6 py-8'>
+      <div className='w-full h-5/6 mt-28    flex flex-col md:flex flex '>
+        <div className=' px-6 py-8'>
           <div className='text-5xl font-bold mt-0 text-blue-800 my-6 ' style={{ fontFamily: 'Arvo' }}>Hi, I am Golu Choudhary
             <div className='text-3xl mt-6 ml-6'><Typewriter
               options={{
@@ -35,12 +35,12 @@ function About() {
            <AiFillLinkedin className='w-12 h-12 text-blue-600'/>
            </div>
         </div>
-        <div className=' w-1/2 h-1/6  rounded-full ' >
+        <div className=' rounded-full ' >
           <Lottie animationData={i} autoplay loop />
         </div>
       </div>
       <div className='w-full flex justify-center text-3xl font-bold text-black'>About</div>
-      <div className='  h-96 mx-4   flex items-center'>
+      <div className=' w-full h-4/6 mx-4   flex items-center md:flex flex-col'>
         {/* <div className='w-60 h-60 border-2 border-indigo-600 mt-8 ml-12'> */}
         <img src="https://avatars.githubusercontent.com/u/103061012?s=400&u=8178651e4df3cf4728b69320b49df961f5226d84&v=4" className='w-60 h-60 border mt-8 ml-12 rounded-2xl ' />
         {/* </div> */}

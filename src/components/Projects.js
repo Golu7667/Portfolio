@@ -19,12 +19,12 @@ function Projects() {
   return (
     <>
       <div className='w-full my-12  font-bold flex items-center flex-col'><div className='text-lg text-blue-600 '>Projects</div><img src={project} className='w-20 h-20  shadow-2xl shadow-green-900 rounded-3xl'/></div>
-      <div className=' h-96 border rounded-xl mx-24 flex shadow-lg shadow-stone-300'>
-        <div className='w-1/2 h-96 bg-white rounded-s-xl px-4'>
+      <div className='w-full h-4/6 border rounded-xl  flex shadow-lg shadow-stone-300'>
+        <div className='w-1/2  bg-white rounded-s-xl '>
           <img src={flipkartimg} className=' my-2 border-2 border-gray-700 rounded-xl' />
         </div>
-        <div className='w-1/2 h-96 flex flex-col'>
-          <div className=' h-96 flex flex-col '>
+        <div className='w-1/2  flex flex-col'>
+          <div className='  flex flex-col '>
             <div className='flex mt-2 mx-auto gap-2'>
               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAnFBMVEVHcEzy0UDInSPYqizbripqYVHWzHzy20Tq2F3u2VXzwTB3XBrz2D7ery315UnhsS0wcKL15k7y20oAbr4Hb7sHa7b64DH55DD82TEGheP45y8Kg9n63THxxi/4xzHuvC/+yjHlsyz80zLowysEetP/3h7vxBUHecyMp6L450G0qWhxlaQgi9hMkMB3pLTksBbWu1G0uomVnYXXyWSrIjT1AAAAFnRSTlMAcUl4/Q0a9T9Q7B20jsuoXL2GgoFsvBma+wAAAadJREFUOI11kw1zojAQhiN+BGxte+2dBoEQQggB+dL+//92uwmeIL1nnGHG53V32URCpmz9IPB35D/4r9XZUv0KftABPU+oVs/+bWJPwJnOOu2qiRup/Cd/euJ4eiSqhXTcu7wtlYOO8y9lAcAj/rQB+vS7U0GvpjM0Bux+ZvYYH+MuRLqCMYbreHVfW4XQxvqw0RDAKeJ/CmEFeBtpdQIJOJ+JBAqDuqm11nkuGfOJf1eOAouHQ44kiZQrErAZ32ETQfUxwBeB4hpGUWi08wkXK+LflaPDQI0DJBjgK7Kzml4793YRgM8BvUyER4hk0kK7yNLYTO0KiC0symomv030INxkdoQ9nhXoob4ZcwFatO3lUmdZyqHAAQ+DS5nkuc5hN9ooCNz6Pttk2diBkLXERJrCR7eqVKregE7TlIt3dyH2Ugjrcx0pFSn0NsDHG/XChRQ4dTJAgbLpXYBz734nPQHATLxWZVle+rHA+nGtPW4DwkBA3fqFhy57LCJaKKBqV8Ajcw5QRGAHha+QvW8Xf87tej9goIQlHF4W2mU+/vz++vBm9i+r/FSYRl4w2gAAAABJRU5ErkJggg==" className='w-6 h-6 ' />
               <div className='text-xl font-bold text-blue-800 '>Flipkart Clone </div>
