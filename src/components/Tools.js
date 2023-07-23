@@ -16,29 +16,29 @@ function Tools() {
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}  >Visualstudiocode</div>
 
-            <SiVisualstudiocode className='h-28 w-28 text-blue-500 border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900' />
+            <SiVisualstudiocode className='h-28 w-28 text-blue-500 border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110 ' />
             </div>
             <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}  >Codesandbox</div>
-            <SiCodesandbox className='h-28 w-28 text-black border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900'  />
+            <SiCodesandbox className='h-28 w-28 text-black border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900  transform transition-transform hover:scale-110'  />
             </div>
             <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}  >Postman</div>
-            <SiPostman className='h-28 w-28 text-red-500 border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900'/>
+            <SiPostman className='h-28 w-28 text-red-500 border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110 '/>
            </div>
             <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}  >Github </div>
-            <VscGithub    className='h-28 w-28 text-black border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900' /> 
+            <VscGithub    className='h-28 w-28 text-black border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110' /> 
            </div>
             
            
            <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}  >Netlify</div>
-            <SiNetlify className='h-28 w-28 text-green-500 border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900' />
+            <SiNetlify className='h-28 w-28 text-green-500 border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900  transform transition-transform hover:scale-110' />
            </div>
            <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}  >Vercel</div>
-            <SiVercel  className='h-28 w-28 text-black-500 border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900'/>
+            <SiVercel  className='h-28 w-28 text-black-500 border-gray-700 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110'/>
            </div>
           
         

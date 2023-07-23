@@ -20,51 +20,51 @@ function Skills() {
          <div className='text-lg text-blue-600'>Skills</div>
          <img src={skill} className='w-20 h-20 shadow-2xl shadow-green-900 rounded-3xl '/>
          </div>
-         <div className='my-12 flex justify-center gap-4 gap-y-12 flex-wrap'>
+         <div className='my-12 flex justify-center gap-4 gap-y-12 flex-wrap  '>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}  >Html</div>
-         <SiHtml5 className='h-28  w-28 bg-gray text-red-500 rounded-2xl px-6 shadow-xl shadow-indigo-900'>HTML</SiHtml5> 
+         <SiHtml5 className='h-28  w-28 bg-gray text-red-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110'/>
          
          </div>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold'  style={{ fontFamily: 'serif' }}>Css</div>
-         <DiCss3 className='h-28 w-28 text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900' />
+         <DiCss3 className='h-28 w-28 text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110' />
          </div>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}>Javascript</div> 
-        <SiJavascript className='h-28 w-28 text-yellow-300 rounded-2xl px-6  shadow-xl shadow-indigo-900   ' />
+        <SiJavascript className='h-28 w-28 text-yellow-300 rounded-2xl px-6  shadow-xl shadow-indigo-900  transform transition-transform hover:scale-110 ' />
         </div>
         <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}>React</div>
-         <FaReact className='h-28 w-28 text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900' />
+         <FaReact className='h-28 w-28 text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110' />
          </div>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}>NodeJs </div>
-         <FaNodeJs  className='h-28 w-28 text-green-500 rounded-2xl px-6 shadow-xl shadow-indigo-900' />
+         <FaNodeJs  className='h-28 w-28 text-green-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110' />
          </div>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}>Mongodb</div>
-         <DiMongodb className='h-28 w-28 text-green-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 ' />
+         <DiMongodb className='h-28 w-28 text-green-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110' />
          </div>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}>Redux</div>
-         <SiRedux className='h-28 w-28 text-purple-800 rounded-2xl px-6 shadow-xl shadow-indigo-900' />
+         <SiRedux className='h-28 w-28 text-purple-800 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110 ' />
          </div>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}>Express</div>
-         <SiExpress className='h-28 w-28 text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 ' />
+         <SiExpress className='h-28 w-28 text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110' />
          </div>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}>Chakraui</div>
-         <SiChakraui className='h-28 w-28 text-green-500 rounded-2xl px-6 shadow-xl shadow-indigo-900' />
+         <SiChakraui className='h-28 w-28 text-green-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110' />
          </div>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}>Chakraui</div>
-         <SiChakraui className='h-28 w-28 text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900' />
+         <SiChakraui className='h-28 w-28 text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900  transform transition-transform hover:scale-110' />
          </div>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>
          <div className='text-md text-green-500 font-bold' style={{ fontFamily: 'serif' }}>TailwindCss</div>
-         <BiLogoTailwindCss className='h-28 w-28 text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900'/>
+         <BiLogoTailwindCss className='h-28 w-28 text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110'/>
          </div>
          </div>
     </>
