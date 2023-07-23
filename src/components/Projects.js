@@ -38,8 +38,8 @@ function Projects() {
           </div>
 
           <div className='flex gap-24 justify-center mb-4 '>
-            <div className='w-24 h-12 text-white shadow-lg shadow-green-950   rounded-lg text-md font-bold flex justify-center items-center bg-blue-400'>Open</div>
-            <div className='w-24 h-12 text-white shadow-lg shadow-green-950   rounded-lg text-md font-bold flex justify-center items-center bg-blue-400'>Code</div>
+            <div className='w-24 h-12 text-white shadow-lg shadow-green-950   rounded-lg text-md font-bold flex justify-center items-center bg-blue-400'><a href='https://flipkartmern.vercel.app/'>Open</a></div>
+            <div className='w-24 h-12 text-white shadow-lg shadow-green-950   rounded-lg text-md font-bold flex justify-center items-center bg-blue-400'><a href='https://github.com/Golu7667/flipkart-clone'>Code</a></div>
           </div>
         </div>
       </div>

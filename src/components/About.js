@@ -24,15 +24,17 @@ function About() {
             <div className='text-lg font-bold px-6 text-black    ' style={{ fontFamily: 'Arvo' }} >
               An inquisitive and highly motivated full stack web developer with specialization in MERN stack. Have relevant hands-on experience in building multiple websites from scratch. Seeking to pursue a career in a challenging environment to hone industry skill.
             </div>
-           <div className='mt-20 flex gap-12'>
+           <div className='mt-20 flex gap-12 mb-8'>
               <a href="https://github.com/golu7667">
                 <AiFillGithub className='w-12 h-12'/>
               </a>
-              <a href="goluchoudhary7808@gmail.com">
+              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl">
                 <BiMessage className='w-12 h-12 text-yellow-300'/>
               </a>
                <IoMdCall className='w-12 h-12 text-green-500'/>
+               <a href="https://www.linkedin.com/in/golu-choudhary-976199253">
                <AiFillLinkedin className='w-12 h-12 text-blue-600'/>
+               </a>
            </div>
         </div>
         <div className='w-full md:w-1/2 rounded-full ' >

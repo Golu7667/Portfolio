@@ -1,11 +1,51 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Typewriter from "typewriter-effect";
 import Lottie from 'lottie-react';
 import chat from '../chat.json'
 import {BiMessage} from 'react-icons/bi'
 import {IoMdCall} from 'react-icons/io'
+import emailjs from "@emailjs/browser";
+import { useFormik } from "formik";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
+  const notify = () => toast("Wow so easy!");
+
+  const initialValues = {
+    Name: "",
+    EmailS: "",
+    Message: "",
+  }
+  const SendMail = (templateParams) => {
+    emailjs.send("service_s927f1e", "template_jg0nk9b", templateParams,"ZcGFUlFp0ItkveQsu")
+      .then((response) => {
+      
+        console.log(templateParams)
+        console.log('SUCCESS!', response.status, response.text);
+      }, (err) => {
+        console.log('FAILED...', err);
+      });
+      toast.success("E-mail Sent's Successfully", {
+        icon: "🚀",
+        theme:"colored",
+        duration:5000,
+        
+      });
+  }
+
+  const { values,handleBlur, handleChange, handleSubmit, setValues } = useFormik({
+    initialValues,
+    onSubmit: (values, action) => {
+      action.resetForm()
+      setValues(initialValues)
+      SendMail({ "name": values.Name, "user-email": values.EmailS, "message": values.Message})
+    }
+  })
+
+  
+  
+
   return (
     <>
        <div className='w-full text-xl font-extrabold flex flex-col items-center mt-8 text-blue-600'>
@@ -18,13 +58,50 @@ function Contact() {
         </div>  
         
         <div className='w-full flex flex-col py-4 justify-center items-center '>
-            <input className="border-2   w-72 mb-6 rounded-lg pl-2 text-lg placeholder:font-bold  focus:outline-none  focus:border-sky-800" placeholder='Name' />
-            <input className="border-2 w-72  mb-6 rounded-lg pl-2 placeholder:text-font text-lg placeholder:font-bold focus:outline-none  focus:border-sky-800" placeholder='Email' />
-            <textarea className="border-2 w-72 h-24  mb-8 rounded-lg pl-2 placeholder:font-bold focus:outline-none  focus:border-sky-800" name='Message' placeholder="Message" />
-            <button className='w-24 h-10 bg-sky-800  border-2 border-gray- rounded-lg text-white font-semibold focus:outline-none hover:bg-blue-400  transform transition-transform hover:scale-110     '>Submit</button>
-            </div>
+            
+            
+        <form className="flex flex-col mx-auto max-w-md p-4">
+      <input
+        type="text"
+        name="Name"
+        value={values.Name}
+        onChange={handleChange}
+        onBlur={handleBlur}
+        className="user mb-4 p-2 rounded-md border"
+        placeholder="Name"
+      />
+      <input
+        type="email"
+        name="EmailS"
+        value={values.EmailS}
+        onChange={handleChange}
+        onBlur={handleBlur}
+        className="user mb-4 p-2 rounded-md border"
+        placeholder="Email"
+      />
+      <textarea
+        name="Message"
+        value={values.Message}
+        onChange={handleChange}
+        onBlur={handleBlur}
+        className="user mb-4 p-2 rounded-md border"
+        placeholder="Message"
+      />
+      <button
+        onClick={handleSubmit}
+        className="button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md"
+        type="button"
+      >
+        Send
+      </button>
+    </form>
+        <ToastContainer className="flex items-center" />
+    </div>
       </div>
+
       </div>
+       
+
 
       <div className='bg-gray-400 h-12 text-lg font-bold flex justify-center items-center text-black'>Made By Golu choudhary</div>
     </>
