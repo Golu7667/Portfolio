@@ -9,7 +9,7 @@ import {IoMdCall} from 'react-icons/io'
 function About() {
   return (
     <>
-      <div className='w-full  h-auto   flex flex-col-reverse md:flex-row md:h-5/6 '>
+      <div className='w-full  h-auto mt-6  flex flex-col-reverse md:flex-row md:h-5/6 '>
         <div className='w-full px-6 md:w-1/2 '>
           <div className='text-5xl font-bold mt-0 text-blue-800 my-6 ' style={{ fontFamily: 'Arvo' }}>Hi, I am Golu Choudhary
             <div className='text-3xl mt-6 ml-6'><Typewriter

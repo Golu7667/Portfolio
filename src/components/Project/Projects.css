@@ -2,12 +2,12 @@
   width: 100vw;
   display: flex;
   justify-content: center;
- 
+
 }
 .projects_container {
-    width: 80%;
+    width: 79%;
     height: auto;
-    margin: 0% 10% 0% 10%;
+    margin: 0% 5% 0% 5%;
   }
   
   .project {
@@ -117,7 +117,7 @@
     .projects_container {
       width: 90%;
     
-      margin: 0% 5% 0% 5% ;
+      margin: 0% 2% 0% 2% ;
     }
   }
   

@@ -10,7 +10,7 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <>
+    < div style={{width:'100vw',margin:'0px',padding:'0px'}}>
 
       <Header />
       <section id="#about">
@@ -30,7 +30,7 @@ function App() {
       </section>
    
  
-    </>
+    </div>
   );
 }
 
