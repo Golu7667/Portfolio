@@ -48,7 +48,8 @@ function About() {
         <img src="https://avatars.githubusercontent.com/u/103061012?s=400&u=8178651e4df3cf4728b69320b49df961f5226d84&v=4" className='w-60 h-60 border  rounded-2xl ' />
         </div>
        {/* </div> */}
-        <div className='w-full  p-4 md:w-8/12 font-bold text-md text-slate-700 border border-blue-200 rounded-lg shadow-lg shadow-blue-400'>
+       <div style={{position:'relative',width:'80%',height:'100px',paddingRight:'5px'}} className='border border-blue-200 rounded-lg shadow-lg shadow-blue-400'>
+        <div className='w-full  p-4 md:w-full font-bold text-md text-slate-700 border border-blue-200 rounded-lg shadow-lg shadow-blue-400' style={{position:'absolute',}}>
             Hi Everyone, I am Golu Choudhary from Bhagalpur, Bihar. I have completed my Higher Secondary Education at Sabour Collage Sabour,Bhagalpur.
             Apart from coding, some other activities that I love to do!
             <Typewriter
@@ -60,6 +61,7 @@ function About() {
               }}
             />
           
+        </div>
         </div>
       </div>
 
