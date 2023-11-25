@@ -47,7 +47,7 @@ function Header() {
         <div><a to="#tools" onClick={() => toggleNavList("#tools")}>Tools</a></div>
         <div><a to="/projects" onClick={() => toggleNavList("#projects")} >Projects</a></div>
         <div><a to="/contact" onClick={() => toggleNavList("#contact")}>Contact</a></div>  
-        <div>Resume</div>
+        <div> <a href='https://drive.google.com/file/d/1eLUF4M5UNTXHDNxvMqHHlC4ruRr1HoNb/view' download="filename.pdf">Resume</a></div>
         </div>
       </div> :null
       
@@ -64,7 +64,7 @@ function Header() {
         <div><a to="#tools" onClick={() => toggleNavList("#tools")}>Tools</a></div>
         <div><a to="/projects" onClick={() => toggleNavList("#projects")} >Projects</a></div>
         <div><a to="/contact" onClick={() => toggleNavList("#contact")}>Contact</a></div>  
-        <div>Resume</div>
+        <div> <a href='https://drive.google.com/file/d/1eLUF4M5UNTXHDNxvMqHHlC4ruRr1HoNb/view' download="filename.pdf">Resume</a></div>
         </div>
       </div>
     </div>

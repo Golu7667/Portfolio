@@ -8,6 +8,8 @@ import {Projects }from './components/Project/Projects.js'
 import Contact from './components/Contact';
 import Home from './components/Home';
 
+
+
 function App() {
   return (
     < div style={{width:'100vw',margin:'0px',padding:'0px'}}>
@@ -28,7 +30,7 @@ function App() {
       <section id="#contact">
       <Contact />
       </section>
-   
+    
  
     </div>
   );
