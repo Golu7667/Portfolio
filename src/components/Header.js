@@ -24,7 +24,7 @@ function Header() {
   return (
     <>
      
-     <div className='w-full h-20 bg-gray-400 flex justify-end items-center z-10 sticky top-0 '>
+     <div className='w-full h-20 bg-gray-400  flex justify-end items-center z-10 sticky top-0 '>
      <div className='w-full flex  justify-center text-2xl font-bold text-white gap-y-6'>Golu Choudhary</div>
      {showNavList ?
     
@@ -36,7 +36,7 @@ function Header() {
   
     { showNavList?
      
-     <div className='md:hidden w-full h-screen bg-gray-500 flex flex-col pt-4 z-10 fixed overflow-hidden'>
+     <div className='lg:hidden w-full h-screen bg-gray-500 flex flex-col pt-4 z-10 fixed overflow-hidden'>
       <div className='w-full flex flex-col justify-center items-center text-xl font-bold gap-y-10  text-white '>
         <div> <a href="#home" onClick={() => toggleNavList("#home")} >Home</a></div>
         <div><a href="#about" onClick={() => toggleNavList("#about")}>About</a></div>
@@ -50,7 +50,7 @@ function Header() {
       
     }
 
-    <div className='hidden lg:block flex w-full bg-white-500 py-6 pr-2 border-none border-1 px-12  z-10 fixed top-0  justify-between overflow-hidden object-contian text-black bg-gray-400 ' >
+    <div className='hidden lg:block flex w-full bg-white-500 py-6 pr-2 border-none border-1 px-12  z-10 fixed top-0  justify-between overflow-hidden object-contian text-black  ' style={{backgroundColor:'black'}} >
       
       <div className=' flex '>
       <div className='w-3/12 text-2xl font-bold text-white gap-12'>Golu Choudhary</div>

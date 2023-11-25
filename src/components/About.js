@@ -21,8 +21,9 @@ function About() {
               }}
             /></div>
           </div>
-            <div className='text-lg font-bold px-6 text-black    ' style={{ fontFamily: 'Arvo' }} >
-              An inquisitive and highly motivated full stack web developer with specialization in MERN stack. Have relevant hands-on experience in building multiple websites from scratch. Seeking to pursue a career in a challenging environment to hone industry skill.
+            <div className='text-lg font-bold px-6 text-black    ' style={{ fontFamily: 'cursive' }} >
+             
+Motivated MERN stack web developer with hands-on experience in building websites from scratch. Eager to contribute skills in a challenging environment, driven by curiosity and a passion for coding. Specialized in full-stack development, seeking a career opportunity to further refine industry expertise. Ready to take on new challenges and make meaningful contributions to innovative projects. Dedicated to continuous learning and staying updated with the latest web development trends. Excited about the prospect of bringing creativity and technical proficiency to a dynamic team. Open to new opportunities that allow for professional growth and skill enhancement.
             </div>
            <div className='mt-20 flex gap-12 mb-8'>
               <a href="https://github.com/golu7667">
@@ -48,21 +49,21 @@ function About() {
         <img src="https://avatars.githubusercontent.com/u/103061012?s=400&u=8178651e4df3cf4728b69320b49df961f5226d84&v=4" className='w-60 h-60 border  rounded-2xl ' />
         </div>
        {/* </div> */}
-       <div style={{position:'relative',width:'80%',height:'100px',paddingRight:'5px'}} className='border border-blue-200 rounded-lg shadow-lg shadow-blue-400'>
-        <div className='w-full  p-4 md:w-full font-bold text-md text-slate-700 border border-blue-200 rounded-lg shadow-lg shadow-blue-400' style={{position:'absolute',}}>
-            Hi Everyone, I am Golu Choudhary from Bhagalpur, Bihar. I have completed my Higher Secondary Education at Sabour Collage Sabour,Bhagalpur.
-            Apart from coding, some other activities that I love to do!
+      
+        <div className='w-full  p-4 md:w-full font-bold text-lg text-black ' style={{fontFamily:'revert-layer'}} >
+       Hi I am Golu Choudhary. Recent graduate venturing into MERN Full Stack Development with a keen passion for crafting user-friendly projects. Having successfully built 28 projects, my focus lies on ensuring responsiveness, accessibility, SEO, and optimal performance. Specializing in transforming websites into Progressive Web Apps (PWAs) for both mobile and desktop platforms. I am driven by the goal of infusing creativity and honed skills into a collaborative team. My objective is to contribute to the creation of seamless, accessible, and innovative digital experiences. Committed to maintaining a balance between aesthetics and functionality, I bring a fresh perspective to web development. Eager to embark on new challenges, I aim to further develop my skills and make meaningful contributions in a dynamic professional environment.
+            <span style={{color:'green'}}>
             <Typewriter
               options={{
-                strings: ["A Full Stack Developer", "A MERN Stack Developer", "2000+ Hours Of Coding Experience", "Solved aound 300+ DSA question"],
+                strings: ["A Full Stack Developer", "A MERN Stack Developer",],
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 50,
               }}
             />
-          
+          </span>
         </div>
-        </div>
+        
       </div>
 
     </>
