@@ -2,11 +2,12 @@
   width: 100vw;
   display: flex;
   justify-content: center;
+ 
 }
 .projects_container {
     width: 90%;
     margin: 0px;
-   
+    
   }
   
   .project {
@@ -18,6 +19,8 @@
     border-radius: 30px;
     border: 2px solid black;
     transition: all 0.5s ease 0s;
+    box-shadow: rgb(106, 106, 207) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   }
   .project:hover {
     transform: scale(1.04);
