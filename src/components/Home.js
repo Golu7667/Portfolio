@@ -2,7 +2,7 @@ import React from 'react'
 import About from './About'
 import Skills from './Skills'
 import Tools from './Tools'
-import Projects from './Projects'
+import {Projects} from './Project/Projects'
 import Contact from './Contact'
 
 function Home() {
