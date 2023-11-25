@@ -17,8 +17,16 @@ function Skills() {
   return (
     <>
          <div className='mt-20 flex flex-col items-center  font-bold'>
-         <div className='text-lg text-blue-600'>Skills</div>
-         <img src={skill} className='w-20 h-20 shadow-2xl shadow-green-900 rounded-3xl '/>
+         <div  style={{
+          width: "100vw",
+          display: "flex",
+          justifyContent: "center",
+          fontSize: "30px",
+          fontWeight: "bolder",
+          fontFamily:'monospace',
+          color:'rgb(37 99 235)'
+        }}>Skills</div>
+        
          </div>
          <div className='my-12 flex justify-center gap-4 gap-y-12 flex-wrap  '>
          <div className='h-32 w-32 flex flex-col justify-center items-center'>

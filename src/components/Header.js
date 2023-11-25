@@ -50,7 +50,7 @@ function Header() {
       
     }
 
-    <div className='hidden lg:block flex w-full bg-white-500 py-6 pr-2 border-none border-1 px-12  z-10 fixed top-0  justify-between overflow-hidden object-contian text-black  ' style={{backgroundColor:'black'}} >
+    <div className='hidden lg:block flex w-full bg-white-500 py-6 pr-2 border-none border-1 px-12  z-10 fixed top-0  justify-between overflow-hidden object-contian text-black bg-gray-400 '  >
       
       <div className=' flex '>
       <div className='w-3/12 text-2xl font-bold text-white gap-12'>Golu Choudhary</div>

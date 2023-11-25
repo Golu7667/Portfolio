@@ -42,7 +42,15 @@ Motivated MERN stack web developer with hands-on experience in building websites
           <Lottie animationData={i} autoplay loop />
         </div>
       </div>
-      <div className='w-full flex justify-center text-3xl font-bold text-black'>About</div>
+      <div  style={{
+          width: "100vw",
+          display: "flex",
+          justifyContent: "center",
+          fontSize: "30px",
+          fontWeight: "bolder",
+          fontFamily:'monospace',
+          color:'rgb(37 99 235)'
+        }}>About</div>
       <div className=' w-full h-auto mt-10 md:flex   md:flex-row md:h-5/6'>
         {/* <div className='w-60 h-60 border-2 border-indigo-600 mt-8 ml-12'> */}
         <div className='w-full flex  justify-center md:block md:w-4/12 mb-10 '>
@@ -51,7 +59,7 @@ Motivated MERN stack web developer with hands-on experience in building websites
        {/* </div> */}
       
         <div className='w-full  p-4 md:w-full font-bold text-lg text-black ' style={{fontFamily:'revert-layer'}} >
-       Hi I am Golu Choudhary. Recent graduate venturing into MERN Full Stack Development with a keen passion for crafting user-friendly projects. Having successfully built 28 projects, my focus lies on ensuring responsiveness, accessibility, SEO, and optimal performance. Specializing in transforming websites into Progressive Web Apps (PWAs) for both mobile and desktop platforms. I am driven by the goal of infusing creativity and honed skills into a collaborative team. My objective is to contribute to the creation of seamless, accessible, and innovative digital experiences. Committed to maintaining a balance between aesthetics and functionality, I bring a fresh perspective to web development. Eager to embark on new challenges, I aim to further develop my skills and make meaningful contributions in a dynamic professional environment.
+       Hi , I am Golu Choudhary. Recent graduate venturing into MERN Full Stack Development with a keen passion for crafting user-friendly projects. Having successfully built 28 projects, my focus lies on ensuring responsiveness, accessibility, SEO, and optimal performance. Specializing in transforming websites into Progressive Web Apps (PWAs) for both mobile and desktop platforms. I am driven by the goal of infusing creativity and honed skills into a collaborative team. My objective is to contribute to the creation of seamless, accessible, and innovative digital experiences. Committed to maintaining a balance between aesthetics and functionality, I bring a fresh perspective to web development. Eager to embark on new challenges, I aim to further develop my skills and make meaningful contributions in a dynamic professional environment.
             <span style={{color:'green'}}>
             <Typewriter
               options={{

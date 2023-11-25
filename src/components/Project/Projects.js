@@ -95,6 +95,8 @@ export const Projects = () => {
           justifyContent: "center",
           fontSize: "30px",
           fontWeight: "bolder",
+          fontFamily:'monospace',
+          color:'rgb(37 99 235)'
         }}
       >
         Projects
