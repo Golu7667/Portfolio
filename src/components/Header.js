@@ -2,6 +2,9 @@ import React,{useState} from 'react'
 import im from '../im.png'
 import { Link } from "react-router-dom"
 import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
+import { MdMenuOpen } from "react-icons/md";
+import { IoMenuOutline } from "react-icons/io5";
+
 function Header() {
 
   const [showNavList, setShowNavList] = React.useState(false);
@@ -28,8 +31,8 @@ function Header() {
      <div className='w-full flex  justify-center text-2xl font-bold text-white gap-y-6'>Golu Choudhary</div>
      {showNavList ?
     
-     <AiOutlineClose className='w-12 h-12 bg-white mr-2 rounded-sm' onClick={()=>setShowNavList(false)}/>
-     : <AiOutlineMenu className='w-12 h-12 bg-white mr-2 rounded-sm' onClick={()=>setShowNavList(true)}/>
+     <MdMenuOpen className='w-12 h-12 bg-white mr-4 rounded-md' onClick={()=>setShowNavList(false)}/>
+     : <IoMenuOutline className='w-12 h-12 bg-white mr-4 rounded-md' onClick={()=>setShowNavList(true)}/>
      
     }
      </div>
