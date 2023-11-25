@@ -52,7 +52,7 @@ function Contact() {
        <div className='flex'><BiMessage/>goluchoudhary7808@gmail.com</div>
        <div className='flex'><IoMdCall/>+917667798932</div></div>
       <div className='w-full h-auto flex  justify-center mb-8 mt-8 '>
-      <div className='w-11/12  mb-6  shadow-lg  shadow-black rounded-xl flex flex-col justify-center sm:flex sm:flex-row'>
+      <div className='w-10/12  mb-6  shadow-lg  shadow-black rounded-xl flex flex-col justify-center sm:flex sm:flex-row'>
         <div className='w-full  text bg-yellow-300  md:w-full flex justify-center items-center rounded-t-xl  sm:rounded-s-xl'>
           <div className='w-72 h-72' > <Lottie animationData={chat} autoplay loop /></div>
         </div>  
