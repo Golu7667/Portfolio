@@ -1,34 +1,30 @@
-import React from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import Skills from './components/Skills';
-import Tools from './components/Tools';
-import {Projects }from './components/Project/Projects.js'
-import Contact from './components/Contact';
-
+import React from "react";
+import Header from "./components/Header";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Tools from "./components/Tools";
+import { Projects } from "./components/Project/Projects.js";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    < div >
-
+    <div>
       <Header />
       <section id="#about">
-      <About />
+        <About />
       </section>
       <section id="#skills">
-      <Skills />
+        <Skills />
       </section>
       <section id="#tools">
-      <Tools />
+        <Tools />
       </section>
       <section id="#projects">
-      <Projects />
+        <Projects />
       </section>
       <section id="#contact">
-      <Contact />
+        <Contact />
       </section>
-    
- 
     </div>
   );
 }

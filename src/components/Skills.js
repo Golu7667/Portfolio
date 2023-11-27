@@ -9,7 +9,7 @@ import {
 } from "react-icons/si";
 import { FaReact, FaNodeJs, FaBootstrap } from "react-icons/fa";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript,SiNextdotjs ,SiMysql } from "react-icons/si";
+import { SiJavascript, SiNextdotjs, SiMysql } from "react-icons/si";
 import { BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
 import { FaPython } from "react-icons/fa6";
 
@@ -136,7 +136,7 @@ function Skills() {
             className="text-md text-green-500 font-bold"
             style={{ fontFamily: "serif" }}
           >
-           Bootstrap
+            Bootstrap
           </div>
           <FaBootstrap className="h-28  w-28 bg-gray text-red-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110" />
         </div>
@@ -145,7 +145,7 @@ function Skills() {
             className="text-md text-green-500 font-bold"
             style={{ fontFamily: "serif" }}
           >
-          Next Js
+            Next Js
           </div>
           <SiNextdotjs className="h-28  w-28 bg-gray text-black rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110" />
         </div>
@@ -154,18 +154,29 @@ function Skills() {
             className="text-md text-green-500 font-bold"
             style={{ fontFamily: "serif" }}
           >
-           Typescript
+            Typescript
           </div>
-          <BiLogoTypescript  className="h-28  w-28 bg-gray text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110" />
+          <BiLogoTypescript className="h-28  w-28 bg-gray text-blue-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110" />
         </div>
         <div className="h-32 w-32 flex flex-col justify-center items-center">
           <div
             className="text-md text-green-500 font-bold"
             style={{ fontFamily: "serif" }}
           >
-           C Language
+            C Language
           </div>
-          <text className="h-28  w-28 bg-gray text-blue-400 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110" style={{display:'flex',alignItems:'center',justifyContent:'center',fontSize:'40px',fontWeight:'bolder'}}>C</text>
+          <text
+            className="h-28  w-28 bg-gray text-blue-400 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: "40px",
+              fontWeight: "bolder",
+            }}
+          >
+            C
+          </text>
         </div>
         <div className="h-32 w-32 flex flex-col justify-center items-center">
           <div
@@ -174,7 +185,18 @@ function Skills() {
           >
             C++ Language
           </div>
-         <text className="h-28  w-28 bg-gray text-blue-400 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110" style={{display:'flex',alignItems:'center',justifyContent:'center',fontSize:'40px',fontWeight:'bolder'}}>C++</text>
+          <text
+            className="h-28  w-28 bg-gray text-blue-400 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: "40px",
+              fontWeight: "bolder",
+            }}
+          >
+            C++
+          </text>
         </div>
         <div className="h-32 w-32 flex flex-col justify-center items-center">
           <div
@@ -183,13 +205,8 @@ function Skills() {
           >
             Python
           </div>
-          <FaPython  className="h-28  w-28 bg-gray text-yellow-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110" />
+          <FaPython className="h-28  w-28 bg-gray text-yellow-500 rounded-2xl px-6 shadow-xl shadow-indigo-900 transform transition-transform hover:scale-110" />
         </div>
-
-
-
-
-
       </div>
     </>
   );

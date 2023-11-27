@@ -153,8 +153,10 @@ export const Projects = () => {
       img: "https://i.postimg.cc/440fYGbT/nextjsinsidemongoose.png",
       des: "In my Next.js project, MongoDB is directly integrated, eliminating the need for Express and Node.js. This streamlined approach simplifies development, creating efficient, serverless web applications.",
       name: "MongoDB-Next.js-Expressless-App",
-      deployurl: "https://github.com/Golu7667/MongoDB-Next.js-Expressless-Efficiency",
-      githuburl: "https://github.com/Golu7667/MongoDB-Next.js-Expressless-Efficiency",
+      deployurl:
+        "https://github.com/Golu7667/MongoDB-Next.js-Expressless-Efficiency",
+      githuburl:
+        "https://github.com/Golu7667/MongoDB-Next.js-Expressless-Efficiency",
     },
     {
       id: "20",
@@ -164,7 +166,6 @@ export const Projects = () => {
       deployurl: "https://github.com/Golu7667/Login-With-Email-Otp",
       githuburl: "https://github.com/Golu7667/Login-With-Email-Otp",
     },
-
   ];
 
   return (
@@ -176,8 +177,8 @@ export const Projects = () => {
           justifyContent: "center",
           fontSize: "30px",
           fontWeight: "bolder",
-          fontFamily:'monospace',
-          color:'rgb(37 99 235)'
+          fontFamily: "monospace",
+          color: "rgb(37 99 235)",
         }}
       >
         Projects
@@ -202,25 +203,23 @@ export const Projects = () => {
                 <p>{item.des}</p>
 
                 <div style={{ display: "block" }}>
-                  <Button colorScheme="whatsapp"
-                   style={{ width: "20vw" ,marginTop:'20px' ,marginRight:'20px'}}
+                  <Button
+                    colorScheme="whatsapp"
+                    style={{
+                      width: "20vw",
+                      marginTop: "20px",
+                      marginRight: "20px",
+                    }}
                   >
-                    <a
-                      href={item.githuburl}
-                      target="_blank"
-                      rel="noreferrer"
-                     
-                    >
-                       Url
+                    <a href={item.githuburl} target="_blank" rel="noreferrer">
+                      Url
                     </a>
                   </Button>
-                  <Button colorScheme="whatsapp" style={{width: "20vw",marginTop:'20px' }}>
-                    <a
-                      href={item.githuburl}
-                      target="_blank"
-                      rel="noreferrer"
-                      
-                    >
+                  <Button
+                    colorScheme="whatsapp"
+                    style={{ width: "20vw", marginTop: "20px" }}
+                  >
+                    <a href={item.githuburl} target="_blank" rel="noreferrer">
                       Code
                     </a>
                   </Button>
