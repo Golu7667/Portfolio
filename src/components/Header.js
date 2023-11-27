@@ -4,6 +4,8 @@ import { Link } from "react-router-dom"
 import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
 import { MdMenuOpen } from "react-icons/md";
 import { IoMenuOutline } from "react-icons/io5";
+import resume from '../Images/Golu_Choudhary_Resume.pdf';
+
 
 function Header() {
 
@@ -47,7 +49,16 @@ function Header() {
         <div><a to="#tools" onClick={() => toggleNavList("#tools")}>Tools</a></div>
         <div><a to="/projects" onClick={() => toggleNavList("#projects")} >Projects</a></div>
         <div><a to="/contact" onClick={() => toggleNavList("#contact")}>Contact</a></div>  
-        <div> <a href='https://drive.google.com/file/d/1eLUF4M5UNTXHDNxvMqHHlC4ruRr1HoNb/view' download="filename.pdf">Resume</a></div>
+        <div> <a
+              href={resume}
+              onClick={()=>{window.open("https://drive.google.com/file/d/1eLUF4M5UNTXHDNxvMqHHlC4ruRr1HoNb/view" , "blank")}}
+              target="_blank"
+              rel="noreferrer"
+            
+              download={"Golu-Chaudhary-Resume"}
+            >
+              Resume
+            </a></div>
         </div>
       </div> :null
       
@@ -64,7 +75,17 @@ function Header() {
         <div><a to="#tools" onClick={() => toggleNavList("#tools")}>Tools</a></div>
         <div><a to="/projects" onClick={() => toggleNavList("#projects")} >Projects</a></div>
         <div><a to="/contact" onClick={() => toggleNavList("#contact")}>Contact</a></div>  
-        <div> <a href='https://drive.google.com/file/d/1eLUF4M5UNTXHDNxvMqHHlC4ruRr1HoNb/view' download="filename.pdf">Resume</a></div>
+        <div> <a
+              href={resume}
+              onClick={()=>{window.open("https://drive.google.com/file/d/1eLUF4M5UNTXHDNxvMqHHlC4ruRr1HoNb/view" , "blank")}}
+             
+              target="_blank"
+              rel="noreferrer"
+            
+              download={"Golu-Chaudhary-Resume"}
+            >
+              Resume
+            </a></div>
         </div>
       </div>
     </div>
