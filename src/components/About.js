@@ -21,7 +21,7 @@ function About() {
               }}
             /></div>
           </div>
-            <div className='text-lg font-bold px-6 text-black    ' style={{ fontFamily: 'cursive' }} >
+            <div className='text-lg font-bold px-6 text-black    ' style={{ fontFamily: 'Arvo' }} >
              
 Motivated MERN stack web developer with hands-on experience in building websites from scratch. Eager to contribute skills in a challenging environment, driven by curiosity and a passion for coding. Specialized in full-stack development, seeking a career opportunity to further refine industry expertise. Ready to take on new challenges and make meaningful contributions to innovative projects. Dedicated to continuous learning and staying updated with the latest web development trends. Excited about the prospect of bringing creativity and technical proficiency to a dynamic team. Open to new opportunities that allow for professional growth and skill enhancement.
             </div>
