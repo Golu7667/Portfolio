@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Lottie from "lottie-react";
 import i from "../happy.json";
 import Typewriter from "typewriter-effect";
@@ -47,10 +47,13 @@ function About() {
             <a href="https://github.com/golu7667">
               <AiFillGithub className="w-12 h-12" />
             </a>
-            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl">
+            <a href="mailto:goluchoudhary7808@gmail.com">
               <BiMessage className="w-12 h-12 text-yellow-300" />
             </a>
-            <IoMdCall className="w-12 h-12 text-green-500" />
+
+            <a href="tel:+917667798932">
+              <IoMdCall className="w-12 h-12 text-green-500" />
+            </a>
             <a href="https://www.linkedin.com/in/golu-choudhary-976199253">
               <AiFillLinkedin className="w-12 h-12 text-blue-600" />
             </a>
