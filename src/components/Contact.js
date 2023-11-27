@@ -20,18 +20,24 @@ function Contact() {
   const SendMail = (templateParams) => {
     emailjs.send("service_s927f1e", "template_jg0nk9b", templateParams,"ZcGFUlFp0ItkveQsu")
       .then((response) => {
-      
-        console.log(templateParams)
-        console.log('SUCCESS!', response.status, response.text);
-      }, (err) => {
-        console.log('FAILED...', err);
-      });
-      toast.success("E-mail Sent's Successfully", {
-        icon: "🚀",
-        theme:"colored",
-        duration:5000,
+        toast.success("E-mail Sent Successfully", {
+          icon: "🚀",
+          theme: "colored",
+          duration: 5000,
+          position: "bottom-center", 
+        });
         
+        
+        
+      }) .catch ((err) => {
+        toast.error("Failed Correct Your Email", {
+          icon: "🚀",
+          theme: "colored",
+          duration: 5000,
+          position: "bottom-center", 
+        });
       });
+      
   }
 
   const { values,handleBlur, handleChange, handleSubmit, setValues } = useFormik({
