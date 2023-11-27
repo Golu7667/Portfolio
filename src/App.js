@@ -1,13 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
-import { Route, Routes, Router } from 'react-router-dom';
 import About from './components/About';
 import Skills from './components/Skills';
 import Tools from './components/Tools';
 import {Projects }from './components/Project/Projects.js'
 import Contact from './components/Contact';
-import Home from './components/Home';
-
 
 
 function App() {
