@@ -1,7 +1,4 @@
 import React,{useState} from 'react'
-import im from '../im.png'
-import { Link } from "react-router-dom"
-import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
 import { MdMenuOpen } from "react-icons/md";
 import { IoMenuOutline } from "react-icons/io5";
 import resume from '../Images/Golu_Choudhary_Resume.pdf';
@@ -11,14 +8,8 @@ function Header() {
 
   const [showNavList, setShowNavList] = React.useState(false);
  
-  const divStyle = {
-    backgroundImage: `url(${im})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    // Add additional background properties or styles as needed
-
+ 
     
-    };
     const toggleNavList = (id) => {
       var element = document.getElementById(id);
       if (element) {

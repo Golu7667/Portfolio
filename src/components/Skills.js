@@ -12,7 +12,6 @@ import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript,SiNextdotjs ,SiMysql } from "react-icons/si";
 import { BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
 import { FaPython } from "react-icons/fa6";
-import skill from "../skill.png";
 
 function Skills() {
   return (

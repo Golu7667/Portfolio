@@ -1,5 +1,4 @@
 import React, { useRef } from 'react'
-import Typewriter from "typewriter-effect";
 import Lottie from 'lottie-react';
 import chat from '../chat.json'
 import {BiMessage} from 'react-icons/bi'
