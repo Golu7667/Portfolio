@@ -203,6 +203,7 @@ export const Projects = () => {
                 <p>{item.des}</p>
 
                 <div style={{ display: "block" }}>
+                 <a href={item.githuburl} target="_blank" rel="noreferrer">
                   <Button
                     colorScheme="whatsapp"
                     style={{
@@ -211,18 +212,21 @@ export const Projects = () => {
                       marginRight: "20px",
                     }}
                   >
-                    <a href={item.githuburl} target="_blank" rel="noreferrer">
+                    
                       Url
-                    </a>
+                    
                   </Button>
+ </a>
+                     <a href={item.githuburl} target="_blank" rel="noreferrer">
                   <Button
                     colorScheme="whatsapp"
                     style={{ width: "20vw", marginTop: "20px" }}
                   >
-                    <a href={item.githuburl} target="_blank" rel="noreferrer">
+                   
                       Code
-                    </a>
+                    
                   </Button>
+                        </a>
                 </div>
               </div>
             </div>
